@@ -1,0 +1,35 @@
+# ----------------------------
+# Configuração do Ghostty
+# ----------------------------
+
+# Aparência
+theme = Dracula
+font-family = "Fira Code"
+font-size = 14
+
+# Opções visuais
+# cursor-style = block
+# cursor-blink = true
+# hide-scrollbar = true
+
+# Atalhos (macOS usa "cmd", Linux usa "ctrl")
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_tab
+keybind = ctrl+tab=next_tab
+keybind = ctrl+shift+tab=previous_tab
+
+## Gerenciamento de janelas e split 
+keybind = ctrl+super+a=new_split:down
+keybind = ctrl+super+s=new_split:auto
+keybind = ctrl+super+z=goto_split:previous
+keybind = ctrl+super+x=goto_split:next
+keybind = ctrl+super+w=close_surface
+
+# Comportamento
+confirm-close-surface = false
+working-directory = ~
+scrollback-limit = 10000
+
+# Extras
+font-feature = true
+background-opacity = 0.9
